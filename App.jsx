@@ -15,12 +15,12 @@ export default function Page() {
       "Are you sure?",
       "Really sure?",
       "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
+      "We've had this planned since last year!",
+      "Don't you remember?",
+      "Oh, so now you don't remember???",
       "Give it another thought!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
+      "BABY COME ONNNNNNNN!",
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
@@ -29,7 +29,7 @@ export default function Page() {
       "You're breaking my heart ;(",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Pleaseeee? :( You're breaking my heart",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -82,7 +82,7 @@ const Footer = () => {
       href="https://github.com/subhadeeproy3902/valentine"
       target="__blank"
     >
-      Made with{" "}
+      Made by Mark Lopez{" "}
       <span role="img" aria-label="heart">
         ❤️
       </span>
